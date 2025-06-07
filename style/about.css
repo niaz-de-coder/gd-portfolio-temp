@@ -1,0 +1,50 @@
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+}
+#aboutBox{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #4C516D;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+}
+.aboutSec{
+    width: 40vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    transition: all ease-in-out 0.3s;
+}
+.aboutSec img{
+    width: 35vw;
+    transition: all ease-in-out 0.3s;
+}
+.aboutSec h3{
+    color: #FAFAFA;
+    font-size: 2rem;
+    margin: 0;
+    transition: all ease-in-out 0.3s;
+}
+.aboutSec p{
+    color: #FAFAFA;
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 1vw;
+    opacity: 80%;
+    transition: all ease-in-out 0.3s;
+}
+#mainTextAbout{
+    color: orange;
+    font-size: 1rem;
+    opacity: 100%;
+    margin: 0;
+    margin-bottom: 1vw;
+    transition: all ease-in-out 0.3s;
+}

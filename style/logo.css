@@ -1,0 +1,75 @@
+#designs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all ease-in-out 0.3s;
+}
+.designsBox{
+    width: 30vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all ease-in-out 0.3s;
+}
+.designsBox p{
+    color: orange;
+    font-size: 2rem;
+    transition: all ease-in-out 0.3s;
+}
+.logoBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition: all ease-in-out 0.3s;
+}
+#logo1{
+    width: 20vw;
+    height: 20vh;
+    background-image: url('../asset/logo/mojo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+#logo2{
+    width: 30vw;
+    height: 30vh;
+    background-image: url('../asset/logo/apple.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+#logo3{
+    width: 20vw;
+    height: 20vh;
+    background-image: url('../asset/logo/bird.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+.logoBtnBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 1vw;
+    transition: all ease-in-out 0.3s;
+}
+.logoBtnBox i{
+    font-size: 3vw;
+    color: #4C516D;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.logoBtnBox i:hover{
+    color: orange;
+    transition: all ease-in-out 0.3s;
+}
