@@ -86,7 +86,7 @@
 .hd3 h3{
     margin: 0;
     color: #4C516D;
-    font-size: 2rem;
+    font-size: 1rem;
     transition: all ease-in-out 0.3s;
 }
 .hd3 p{
@@ -94,7 +94,7 @@
     margin-top: 1vw;
     margin-bottom: 1vw;
     color: gray;
-    font-size: 1rem;
+    font-size: 0.6rem;
     transition: all ease-in-out 0.3s;
 }
 .hd3 a{
@@ -104,9 +104,21 @@
     padding: 0.5rem;
     border-radius: 18px;
     transition: all ease-in-out 0.3s;
+    font-size: 1rem;
 }
 .hd3 a:hover{
     color: orange;
     background-color: #4C516D;
     transition: all ease-in-out 0.3s;
+}
+
+@media (max-width:710px) {
+    .homeSub{
+        flex-direction: column;
+    }
+    .hd1, .hd2, .hd3{
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+    }
 }

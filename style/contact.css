@@ -1,0 +1,74 @@
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    transition: all ease-in-out 0.3s;
+}
+#contactBox{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+}
+#contactBox p{
+    color: orange;
+    font-size: 2rem;
+    transition: all ease-in-out 0.3s;
+    background-color: #4C516D;
+    width: 80vw;
+    text-align: center;
+    border-radius: 25px;
+    transition: all ease-in-out 0.3s;
+}
+#contactBox form{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    transition: all ease-in-out 0.3s;
+}
+#name, #number, #email{
+    width: 60vw;
+    font-size: 1rem;
+    background-color: #4C516D;
+    border: 1px solid orange;
+    border-radius: 25px;
+    text-align: center;
+    color: orange;
+    transition: all ease-in-out 0.3s;
+    padding: 1rem;
+}
+#message{
+    display: flex;
+    width: 60vw;
+    height: 10vw;
+    font-size: 1rem;
+    background-color: #4C516D;
+    border: 1px solid orange;
+    border-radius: 25px;
+    text-align: center;
+    color: orange;
+    transition: all ease-in-out 0.3s;
+}
+#submit{
+    display: flex;
+    width: 20vw;
+    font-size: 1rem;
+    background-color: #4C516D;
+    border: none;
+    text-align: center;
+    color: orange;
+    padding: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+#submit:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 0.3s;
+}

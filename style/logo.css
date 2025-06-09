@@ -19,6 +19,10 @@
     color: orange;
     font-size: 2rem;
     transition: all ease-in-out 0.3s;
+    background-color: #4C516D;
+    width: 80vw;
+    text-align: center;
+    border-radius: 25px;
 }
 .logoBox{
     display: flex;
@@ -29,7 +33,7 @@
 }
 #logo1{
     width: 20vw;
-    height: 20vh;
+    height: 20vw;
     background-image: url('../asset/logo/mojo.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +42,7 @@
 }
 #logo2{
     width: 30vw;
-    height: 30vh;
+    height: 30vw;
     background-image: url('../asset/logo/apple.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +51,61 @@
 }
 #logo3{
     width: 20vw;
-    height: 20vh;
+    height: 20vw;
+    background-image: url('../asset/logo/bird.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+#poster1{
+    width: 20vw;
+    height: 35vw;
+    background-image: url('../asset/logo/mojo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+#poster2{
+    width: 30vw;
+    height: 50vw;
+    background-image: url('../asset/logo/apple.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+#poster3{
+    width: 20vw;
+    height: 35vw;
+    background-image: url('../asset/logo/bird.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+#tn1{
+    width: 20vw;
+    height: 15vw;
+    background-image: url('../asset/logo/mojo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+#tn2{
+    width: 30vw;
+    height: 20vw;
+    background-image: url('../asset/logo/apple.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+}
+#tn3{
+    width: 20vw;
+    height: 15vw;
     background-image: url('../asset/logo/bird.jpeg');
     background-position: center;
     background-repeat: no-repeat;

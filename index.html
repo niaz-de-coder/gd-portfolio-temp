@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/about.css">
     <link rel="stylesheet" href="style/logo.css">
+    <link rel="stylesheet" href="style/contact.css">
 </head>
 <body>
     <nav id="nav">
@@ -37,7 +38,9 @@
             <div class="homeDiv hd1">
                 <p>Hi, I am</p>
                 <h3>Niaz</h3>
-                <div id="hd1Div"></div>
+                <div style="width: 20vw;display: flex; justify-content: start; align-items: start;">
+                    <div id="hd1Div"></div>
+                </div>
                 <div id="homeIcon">
                     <i class="fa-brands fa-github"></i>
                     <i class="fa-brands fa-linkedin"></i>
@@ -48,8 +51,7 @@
                 <img src="asset/hero.png" alt="">
             </div>
             <div class="homeDiv hd3">
-                <h3>Graphics Designer based on</h3>
-                <h3>Dhaka, Bangladesh</h3>
+                <h3>Graphics Designer based on Dhaka, Bangladesh</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere tenetur laborum accusamus illum animi neque ex soluta non sapiente error, natus atque officia nam rerum nihil ad vel blanditiis, praesentium ipsa sequi nesciunt. Dolorum autem labore facilis eaque, architecto, et ipsam dolor maiores in qui praesentium, voluptatibus nisi rem! Nemo.</p>
                 <a href="">Download CV</a>
             </div>
@@ -82,7 +84,44 @@
                 <i id="logoRight" class="fa-regular fa-circle-right"></i>
             </div>
         </main>
+        <main class="designsBox">
+            <p>Poster</p>
+            <div class="logoBox">
+                <div id="poster1"></div>
+                <div id="poster2"></div>
+                <div id="poster3"></div>
+            </div>
+            <div class="logoBtnBox">
+                <i id="posterLeft" class="fa-regular fa-circle-left"></i>
+                <i id="posterRight" class="fa-regular fa-circle-right"></i>
+            </div>
+        </main>
+        <main class="designsBox">
+            <p>Thumbnail</p>
+            <div class="logoBox">
+                <div id="tn1"></div>
+                <div id="tn2"></div>
+                <div id="tn3"></div>
+            </div>
+            <div class="logoBtnBox">
+                <i id="tnLeft" class="fa-regular fa-circle-left"></i>
+                <i id="tnRight" class="fa-regular fa-circle-right"></i>
+            </div>
+        </main>
      </section>
+     <!-- contact -->
+      <section id="contact">
+        <main id="contactBox">
+            <p>Contact Me to Hire</p>
+            <form action="">
+                <input id="name" type="text" placeholder="Full Name" required>
+                <input type="number" name="" id="number" placeholder="Phone Number" required>
+                <input type="email" name="" id="email" placeholder="Email ID" required>
+                <input type="text" name="" id="message" placeholder="Your Message" required>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </main>
+      </section>
 
     <script src="script/script.js"></script>
     <script src="script/logo.js"></script>
